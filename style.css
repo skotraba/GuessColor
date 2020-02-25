@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(206, 204, 204);
+    font-family: 'Shadows Into Light', Arial, Helvetica, sans-serif;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    position: absolute;
+    top:20%;
+    left:30%;
+    margin: 0;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    
+}
+
+.info {
+    justify-content: space-between;
+    position: relative;
+    padding: 2em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(204, 204, 203);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    max-width: 50%;
+    padding: 1em;
+    
+}
+
+button {
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 1em;
+    border: none;
+    min-width: 20%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    position: relative;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#playAgain {
+    font-size: 20px;
+    background-color: darkgrey;
+}
+
+#playAgain:hover {
+    background-color: transparent;
+}
